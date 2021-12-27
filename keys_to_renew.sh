@@ -16,7 +16,7 @@ fi
 if [[ $(grep After /etc/openvpn/easy-rsa/keys/$item | awk '{print $7}') = $(($(date -d '+10 days' +%Y))) && $(grep After /etc/openvpn/easy-rsa/keys/$item | awk '{print $4}') = $(date -d '+10 days' | awk '{print $2}') && $(($(date -d '+10 days' +%d))) = $(grep After /etc/openvpn/easy-rsa/keys/$item | awk '{print $5}') ]]; then
 echo $item >> /tmp/keys_to_renew.txt
 echo -e "Match found for \033[1;92m$item\033[1;00m"
-#fi
+fi
 done
 
 if [ -f "/tmp/keys_to_renew.txt" ]; then
