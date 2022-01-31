@@ -6,7 +6,7 @@ Bash scripts to get openvpn expired keys and keys to be renewed in some days.
 
 'keys_to_renew.sh' gets keys that gonna be expired in 10 [default value] days. 
 
-One may change [default value] as one like.
+One may change [default value] as one likes.
 
 
 Path to keys (\*.ovpn) storage should be substituted for actual one if necessary. 
