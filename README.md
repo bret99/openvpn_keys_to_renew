@@ -8,7 +8,7 @@ Bash scripts to get openvpn expired keys and keys to be renewed in few days.
 
 One may change [default value] in 3rd line as one likes.
 
-'keys_to_renew_range_date.sh' gets keys that gonna be expired in range date [default value] days. 
+'keys_to_renew_range_date.sh' gets keys that gonna be expired in range date days. 
 
 One may change [default value] in 2nd line as one likes.
 
